@@ -1,30 +1,30 @@
 const plugin = require("tailwindcss/plugin");
 
 const WidgetAttributes = {
-  // autocomplete: [],
-  // checked: [],
-  // disabled: [],
-  // errormessage: [],
+  autocomplete: ["none", "inline", "list", "both"],
+  checked: ["false", "true", "mixed"],
+  disabled: ["true", "false"],
+  errormessage: ["id"],
   expanded: ["true", "false"],
-  // haspopup: [],
-  // hidden: [],
-  // invalid: [],
-  // label: [],
-  // level: [],
-  // modal: [],
-  // multiline: [],
-  // multiselectable: [],
-  // orientation: [],
-  // placeholder: [],
-  // pressed: [],
-  // readonly: [],
-  // required: [],
+  haspopup: ["false", "true", "menu", "listbox", "tree", "grid", "dialog"],
+  hidden: ["false", "true"],
+  invalid: ["grammar", "false", "spelling", "true"],
+  // label: [], <string>
+  // level: [], <integer>
+  modal: ["false", "true"],
+  multiline: ["false", "true"],
+  multiselectable: ["false", "true"],
+  orientation: ["horizontal", "vertical"],
+  // placeholder: [], <string>
+  pressed: ["false", "mixed", "true"],
+  readonly: ["true" ,"false"],
+  required: ["true" ,"false"],
   selected: ["true", "false"],
-  // sort: [],
-  // valuemax: [],
-  // valuemin: [],
-  // valuenow: [],
-  // valuetext: [],
+  sort: ["ascending", "descending", "none", "other"],
+  // valuemax: [], <number>
+  // valuemin: [], <number>
+  // valuenow: [], <number>
+  // valuetext: [], <string>
 };
 
 /* ============================================================= *
