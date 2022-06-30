@@ -1,0 +1,9 @@
+{
+  "name": "tailwind-aria-plugin",
+  "version": "0.1.0",
+  "description": "tailwindcss and aria attributes variants",
+  "main": "index.js",
+  "repository": "https://github.com/kayac-chang/tailwind-aria-plugin",
+  "author": "kayac-chang <egg734631@gmail.com>",
+  "license": "MIT"
+}
