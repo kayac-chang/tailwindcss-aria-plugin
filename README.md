@@ -38,10 +38,8 @@ module.exports = {
 
 #### `aria-autocomplete`
 
-[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)][aria-autocomplete]
+[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)](https://developer.mozilla.org/en-us/docs/web/accessibility/aria/attributes/aria-autocomplete)
 ![Test](https://img.shields.io/badge/Test-todo-yellow.svg)
-
-[aria-autocomplete]:[https://developer.mozilla.org/en-us/docs/web/accessibility/aria/attributes/aria-autocomplete]
 
 - `none`: `aria-autocomplete-none`
 - `inline`: `aria-autocomplete-inline`
@@ -50,10 +48,8 @@ module.exports = {
 
 #### `aria-checked`
 
-[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)][aria-checked]
+[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-checked)
 ![Test](https://img.shields.io/badge/Test-todo-yellow.svg)
-
-[aria-checked]:[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-checked]
 
 - `true`: `aria-checked`
 - `false`: `aria-!checked`
@@ -61,39 +57,31 @@ module.exports = {
 
 #### `aria-disabled`
 
-[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)][aria-disabled]
+[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-disabled)
 ![Test](https://img.shields.io/badge/Test-todo-yellow.svg)
-
-[aria-disabled]:[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-disabled]
 
 - `true`: `aria-disabled`
 - `false`: `aria-!disabled`
 
 #### `aria-errormessage`
 
-[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)][aria-errormessage]
+[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-errormessage)
 ![Test](https://img.shields.io/badge/Test-todo-yellow.svg)
-
-[aria-errormessage]:[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-errormessage]
 
 - `id`: `aria-errormessage`
 
 #### `aria-expanded`
 
-[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)][aria-expanded]
+[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-expanded)
 ![Test](https://img.shields.io/badge/Test-todo-yellow.svg)
-
-[aria-expanded]:[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-expanded]
 
 - `true`: `aria-expanded`
 - `false`: `aria-!expanded`
 
 #### `aria-haspopup`
 
-[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)][aria-haspopup]
+[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-haspopup)
 ![Test](https://img.shields.io/badge/Test-todo-yellow.svg)
-
-[aria-haspopup]:[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-haspopup]
 
 - `true`: `aria-haspopup`
 - `false`: `aria-!haspopup`
@@ -105,20 +93,16 @@ module.exports = {
 
 #### `aria-hidden`
 
-[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)][aria-hidden]
+[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-hidden)
 ![Test](https://img.shields.io/badge/Test-todo-yellow.svg)
-
-[aria-hidden]:[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-hidden]
 
 - `true`: `aria-hidden`
 - `false`: `aria-!hidden`
 
 #### `aria-invalid`
 
-[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)][aria-invalid]
+[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-invalid)
 ![Test](https://img.shields.io/badge/Test-todo-yellow.svg)
-
-[aria-invalid]:[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-invalid]
 
 - `true`: `aria-invalid`
 - `false`: `aria-!invalid`
@@ -127,77 +111,61 @@ module.exports = {
 
 #### `aria-label`
 
-[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)][aria-label]
+[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label)
 ![Test](https://img.shields.io/badge/Test-todo-yellow.svg)
-
-[aria-label]:[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label]
 
 - `<string>`: `aria-label`
 
 #### `aria-level`
 
-[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)][aria-level]
+[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-level)
 ![Test](https://img.shields.io/badge/Test-todo-yellow.svg)
-
-[aria-level]:[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-level]
 
 - `<integer>`: `aria-level`
 
 #### `aria-modal`
 
-[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)][aria-modal]
+[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-modal)
 ![Test](https://img.shields.io/badge/Test-todo-yellow.svg)
-
-[aria-modal]:[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-modal]
 
 - `true`: `aria-modal`
 - `false`: `aria-!modal`
 
 #### `aria-multiline`
 
-[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)][aria-multiline]
+[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-multiline)
 ![Test](https://img.shields.io/badge/Test-todo-yellow.svg)
-
-[aria-multiline]:[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-multiline]
 
 - `true`: `aria-multiline`
 - `false`: `aria-!multiline`
 
 #### `aria-multiselectable`
 
-[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)][aria-multiselectable]
+[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-multiselectable)
 ![Test](https://img.shields.io/badge/Test-todo-yellow.svg)
-
-[aria-multiselectable]:[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-multiselectable]
 
 - `true`: `aria-multiselectable`
 - `false`: `aria-!multiselectable`
 
 #### `aria-orientation`
 
-[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)][aria-orientation]
+[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-orientation)
 ![Test](https://img.shields.io/badge/Test-todo-yellow.svg)
-
-[aria-orientation]:[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-orientation]
 
 - `horizontal`: `aria-orientation-horizontal`
 - `vertical`: `aria-orientation-vertical`
 
 #### `aria-placeholder`
 
-[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)][aria-placeholder]
+[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-placeholder)
 ![Test](https://img.shields.io/badge/Test-todo-yellow.svg)
-
-[aria-placeholder]:[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-placeholder]
 
 - `<string>`: `aria-placeholder`
 
 #### `aria-pressed`
 
-[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)][aria-pressed]
+[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-pressed)
 ![Test](https://img.shields.io/badge/Test-todo-yellow.svg)
-
-[aria-pressed]:[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-pressed]
 
 - `true`: `aria-pressed`
 - `false`: `aria-!pressed`
@@ -205,40 +173,32 @@ module.exports = {
 
 #### `aria-readonly`
 
-[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)][aria-readonly]
+[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-readonly)
 ![Test](https://img.shields.io/badge/Test-todo-yellow.svg)
-
-[aria-readonly]:[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-readonly]
 
 - `true`: `aria-readonly`
 - `false`: `aria-!readonly`
 
 #### `aria-required`
 
-[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)][aria-required]
+[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-required)
 ![Test](https://img.shields.io/badge/Test-todo-yellow.svg)
-
-[aria-required]:[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-required]
 
 - `true`: `aria-required`
 - `false`: `aria-!required`
 
 #### `aria-selected`
 
-[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)][aria-selected]
+[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-selected)
 ![Test](https://img.shields.io/badge/Test-todo-yellow.svg)
-
-[aria-selected]:[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-selected]
 
 - `true`: `aria-selected`
 - `false`: `aria-!selected`
 
 #### `aria-sort`
 
-[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)][aria-sort]
+[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-sort)
 ![Test](https://img.shields.io/badge/Test-todo-yellow.svg)
-
-[aria-sort]:[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-sort]
 
 - `none`: `aria-sort-none`
 - `ascending`: `aria-sort-ascending`
@@ -247,36 +207,28 @@ module.exports = {
 
 #### `aria-valuemax`
 
-[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)][aria-valuemax]
+[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-valuemax)
 ![Test](https://img.shields.io/badge/Test-todo-yellow.svg)
-
-[aria-valuemax]:[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-valuemax]
 
 - `<number>`: `aria-valuemax`
 
 #### `aria-valuemin`
 
-[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)][aria-valuemin]
+[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-valuemin)
 ![Test](https://img.shields.io/badge/Test-todo-yellow.svg)
-
-[aria-valuemin]:[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-valuemin]
 
 - `<number>`: `aria-valuemin`
 
 #### `aria-valuenow`
 
-[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)][aria-valuenow]
+[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-valuenow)
 ![Test](https://img.shields.io/badge/Test-todo-yellow.svg)
-
-[aria-valuenow]:[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-valuenow]
 
 - `<number>`: `aria-valuenow`
 
 #### `aria-valuetext`
 
-[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)][aria-valuetext]
+[![MDN](https://img.shields.io/badge/MDN-black?style=flat&logo=mdnwebdocs)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-valuetext)
 ![Test](https://img.shields.io/badge/Test-todo-yellow.svg)
-
-[aria-valuetext]:[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-valuetext]
 
 - `<string>`: `aria-valuetext`
