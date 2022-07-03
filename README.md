@@ -1,4 +1,4 @@
-# Tailwind Aria Plugin
+# Tailwindcss Aria Plugin
 
 A plugin that provides aria label variants
 that can apply utilities when aria-label existed.
@@ -8,7 +8,7 @@ that can apply utilities when aria-label existed.
 Install the plugin from npm:
 
 ```bash
-  npm install -D tailwind-aria-plugin
+  npm install -D tailwindcss-aria-plugin
 ```
 
 Then add the plugin to your `tailwind.config.js` file:
