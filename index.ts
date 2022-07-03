@@ -71,7 +71,7 @@ const generateNameWithValue = (key: string, value: string) => {
   return `aria-${key}-${value}`;
 };
 
-export default plugin(({ addVariant }) => {
+export = plugin(({ addVariant }) => {
   const Attributes = [WidgetAttributes, GlobalAriaAttributes];
 
   for (const attributes of Attributes) {
