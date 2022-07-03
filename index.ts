@@ -9,22 +9,22 @@ const WidgetAttributes = {
   haspopup: ["false", "true", "menu", "listbox", "tree", "grid", "dialog"],
   hidden: ["false", "true"],
   invalid: ["grammar", "false", "spelling", "true"],
-  // label: [], <string>
-  // level: [], <integer>
+  label: ["<string>"],
+  level: ["<integer>"],
   modal: ["false", "true"],
   multiline: ["false", "true"],
   multiselectable: ["false", "true"],
   orientation: ["horizontal", "vertical"],
-  // placeholder: [], <string>
+  placeholder: ["<string>"],
   pressed: ["false", "mixed", "true"],
   readonly: ["true", "false"],
   required: ["true", "false"],
   selected: ["true", "false"],
   sort: ["ascending", "descending", "none", "other"],
-  // valuemax: [], <number>
-  // valuemin: [], <number>
-  // valuenow: [], <number>
-  // valuetext: [], <string>
+  valuemax: ["<number>"],
+  valuemin: ["<number>"],
+  valuenow: ["<number>"],
+  valuetext: ["<string>"],
 };
 
 /* ============================================================= *
@@ -76,12 +76,21 @@ export default plugin(({ addVariant }) => {
 
   for (const attributes of Attributes) {
     for (const [key, variants] of Object.entries(attributes)) {
+      // only one variants => aria-[key]
+      if (variants.length === 1) {
+        const name = `aria-${key}`;
+        // => aria
+        addVariant(name, `&[aria-${key}]`);
+        // => group-aria
+        addVariant(`group-${name}`, `:merge(.group)[aria-${key}] &`);
+
+        continue;
+      }
+
       for (const value of variants) {
         const name = generateNameWithValue(key, value);
-
         // => aria
         addVariant(name, `&[aria-${key}="${value}"]`);
-
         // => group-aria
         addVariant(`group-${name}`, `:merge(.group)[aria-${key}="${value}"] &`);
       }
