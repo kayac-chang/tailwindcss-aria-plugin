@@ -20,7 +20,7 @@ module.exports = {
     // ...
   },
   plugins: [
-    require("tailwind-aria-plugin"),
+    require("tailwindcss-aria-plugin"),
     // ...
   ],
 };
