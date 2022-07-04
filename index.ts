@@ -28,6 +28,50 @@ const WidgetAttributes = {
 };
 
 /* ============================================================= *
+ * Live region attributes                                        *
+ * ============================================================= */
+
+const LiveRegionAttributes = {
+  busy: ["false", "true"],
+  live: ["assertive", "off", "polite"],
+  relevant: ["additions", "all", "removals", "text", "additions text"],
+  atomic: ["false", "true"],
+};
+
+/* ============================================================= *
+ * Drag-and-Drop attributes                                        *
+ * ============================================================= */
+
+const DragAndDropAttributes = {
+  dropeffect: ["copy", "execute", "link", "move", "none", "popup"],
+  grabbed: ["true", "false"],
+};
+
+/* ============================================================= *
+ * Relationship attributes                                        *
+ * ============================================================= */
+
+const RelationshipAttributes = {
+  activedescendant: ["id"],
+  colcount: ["<integer>"],
+  colindex: ["<integer>"],
+  colspan: ["<integer>"],
+  controls: ["id list"],
+  describedby: ["ID reference list"],
+  description: ["<string>"],
+  details: ["ID reference list"],
+  errormessage: ["id reference"],
+  flowto: ["id","id list"],
+  labelledby: ["ID reference list"],
+  owns: ["id list"],
+  posinset: ["<integer>"],
+  rowcount: ["<integer>"],
+  rowindex: ["<integer>"],
+  rowspan: ["<integer>"],
+  setsize: ["<integer>"],
+};
+
+/* ============================================================= *
  * Global ARIA attributes                                        *
  * ============================================================= */
 
@@ -72,7 +116,7 @@ const generateNameWithValue = (key: string, value: string) => {
 };
 
 export = plugin(({ addVariant }) => {
-  const Attributes = [WidgetAttributes, GlobalAriaAttributes];
+  const Attributes = [WidgetAttributes, LiveRegionAttributes, DragAndDropAttributes, RelationshipAttributes, GlobalAriaAttributes];
 
   for (const attributes of Attributes) {
     for (const [key, variants] of Object.entries(attributes)) {
