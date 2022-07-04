@@ -3,13 +3,13 @@ import plugin from "tailwindcss/plugin";
 const WidgetAttributes = {
   autocomplete: ["none", "inline", "list", "both"],
   checked: ["false", "true", "mixed"],
-  disabled: ["true", "false"],
-  errormessage: ["id"],
+  // disabled: ["true", "false"], duplicate
+  // errormessage: ["id"], duplicate
   expanded: ["true", "false"],
-  haspopup: ["false", "true", "menu", "listbox", "tree", "grid", "dialog"],
-  hidden: ["false", "true"],
-  invalid: ["grammar", "false", "spelling", "true"],
-  label: ["<string>"],
+  // haspopup: ["false", "true", "menu", "listbox", "tree", "grid", "dialog"], duplicate
+  // hidden: ["false", "true"], duplicate
+  // invalid: ["grammar", "false", "spelling", "true"], duplicate
+  // label: ["<string>"], duplicate
   level: ["<integer>"],
   modal: ["false", "true"],
   multiline: ["false", "true"],
@@ -34,7 +34,7 @@ const WidgetAttributes = {
 const LiveRegionAttributes = {
   busy: ["false", "true"],
   live: ["assertive", "off", "polite"],
-  relevant: ["additions", "all", "removals", "text", "additions text"],
+  relevant: ["additions", "all", "removals", "text" /* "additions text" */],
   atomic: ["false", "true"],
 };
 
@@ -60,8 +60,8 @@ const RelationshipAttributes = {
   describedby: ["ID reference list"],
   description: ["<string>"],
   details: ["ID reference list"],
-  errormessage: ["id reference"],
-  flowto: ["id","id list"],
+  // errormessage: ["id reference"], duplicate
+  flowto: ["id" /* "id list" */],
   labelledby: ["ID reference list"],
   owns: ["id list"],
   posinset: ["<integer>"],
@@ -92,7 +92,7 @@ const GlobalAriaAttributes = {
   hidden: ["false", "true"],
   invalid: ["grammar", "false", "spelling", "true"],
   // keyshortcuts: [],
-  // label: [],
+  label: ["<string>"],
   labelledby: ["id"],
   live: ["assertive", "off", "polite"],
   owns: ["id"],
@@ -116,7 +116,13 @@ const generateNameWithValue = (key: string, value: string) => {
 };
 
 export = plugin(({ addVariant }) => {
-  const Attributes = [WidgetAttributes, LiveRegionAttributes, DragAndDropAttributes, RelationshipAttributes, GlobalAriaAttributes];
+  const Attributes = [
+    WidgetAttributes,
+    LiveRegionAttributes,
+    DragAndDropAttributes,
+    RelationshipAttributes,
+    GlobalAriaAttributes,
+  ];
 
   for (const attributes of Attributes) {
     for (const [key, variants] of Object.entries(attributes)) {
