@@ -5,10 +5,6 @@ var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
 var __getOwnPropNames = Object.getOwnPropertyNames;
 var __getProtoOf = Object.getPrototypeOf;
 var __hasOwnProp = Object.prototype.hasOwnProperty;
-var __export = (target, all) => {
-  for (var name in all)
-    __defProp(target, name, { get: all[name], enumerable: true });
-};
 var __copyProps = (to, from, except, desc) => {
   if (from && typeof from === "object" || typeof from === "function") {
     for (let key of __getOwnPropNames(from))
@@ -18,12 +14,6 @@ var __copyProps = (to, from, except, desc) => {
   return to;
 };
 var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target, mod));
-var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
-var tailwind_aria_plugin_exports = {};
-__export(tailwind_aria_plugin_exports, {
-  default: () => tailwind_aria_plugin_default
-});
-module.exports = __toCommonJS(tailwind_aria_plugin_exports);
 var import_plugin = __toESM(require("tailwindcss/plugin"));
 const WidgetAttributes = {
   autocomplete: ["none", "inline", "list", "both"],
@@ -80,7 +70,7 @@ const generateNameWithValue = (key, value) => {
   }
   return `aria-${key}-${value}`;
 };
-var tailwind_aria_plugin_default = (0, import_plugin.default)(({ addVariant }) => {
+module.exports = (0, import_plugin.default)(({ addVariant }) => {
   const Attributes = [WidgetAttributes, GlobalAriaAttributes];
   for (const attributes of Attributes) {
     for (const [key, variants] of Object.entries(attributes)) {
